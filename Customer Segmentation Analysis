@@ -1,4 +1,4 @@
-SELECT * FROM project_customer_segmentation.customer;
+SELECT * FROM new_database.customers;
 use project_customer_segmentation;
 
 -- How is the shopping distribution according to gender?
