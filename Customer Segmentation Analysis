@@ -120,19 +120,3 @@ SELECT age, SUM(price * quantity) AS total_revenue
 FROM customer
 GROUP BY age
 ORDER BY total_revenue DESC;
-
--- Does the payment method have a relation with other columns?
--- Check the count of each payment method within categories
-SELECT category, payment_method, COUNT(*) AS payment_count
-FROM customer
-GROUP BY category, payment_method;
-
--- Check the count of each payment method within age groups
-SELECT age, payment_method, COUNT(*) AS payment_count
-FROM customer
-GROUP BY age, payment_method;
-
--- How is the distribution of the payment method?
-SELECT payment_method, COUNT(*) as payment_count
-FROM customer
-GROUP BY payment_method;
