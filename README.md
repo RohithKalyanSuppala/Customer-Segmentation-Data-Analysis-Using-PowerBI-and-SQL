@@ -1,1 +1,1 @@
-# Customer_Segment
+# Customer Segment Analysis Using Power BI and SQL
